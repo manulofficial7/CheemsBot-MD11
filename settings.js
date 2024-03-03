@@ -38,12 +38,12 @@ global.hituet = 0
 global.typemenu = 'v8' // menu type 'v1' => 'v8'
 global.typereply = 'v2' // reply type 'v1' => 'v3'
 global.autoblocknumber = '92' //set autoblock country code
-global.antiforeignnumber = '91' //set anti foreign number country code
+global.antiforeignnumber = '92' //set anti foreign number country code
 global.welcome = true //welcome/left in groups
 global.anticall = true //bot blocks user when called
 global.autoswview = false //auto status/story view
-global.adminevent = false //show promote/demote message
-global.groupevent = false //show update messages in group chat
+global.adminevent = true //show promote/demote message
+global.groupevent = true //show update messages in group chat
 //msg
 global.mess = {
 	limit: 'Your limit is up!',
